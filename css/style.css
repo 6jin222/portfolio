@@ -196,7 +196,7 @@ mark{
     position: absolute;
     top: 50px;
     left: 60px;
-    font-size: 25px;
+    font-size: 23px;
     font-weight: 700;
 }
 .s02_title{
@@ -237,12 +237,12 @@ mark{
     position: absolute;
     top: 50px;
     left: 60px;
-    font-size: 25px;
+    font-size: 23px;
     font-weight: 700;
 }
 .sect03_box{
     margin: 0 auto;
-    padding: 0 60px;
+    padding: 20px 60px;
 }
 .sect03_photo{
     display: none;
@@ -301,7 +301,7 @@ mark{
     position: absolute;
     top: 50px;
     left: 60px;
-    font-size: 25px;
+    font-size: 23px;
     font-weight: 700;
 }
 .sect04_box{

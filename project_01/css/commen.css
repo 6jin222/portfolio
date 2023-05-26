@@ -103,6 +103,7 @@ body{
 .gnb>ul{
     display: flex;
     justify-content: center;
+    width: 300px;
     margin: 0 auto;
 }
 .gnb>ul>li{
@@ -132,8 +133,8 @@ body{
     top: 0;
     left: 0;
     width: 100%;
-    height: 180px;
-    background-color: #fff;
+    height: 155px;
+    background-color: rgba(255, 255, 255, 0.8);
 }
 
 /* 320px - 푸터 */
