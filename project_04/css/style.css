@@ -1,0 +1,23 @@
+@charset "utf-8";
+
+/* 기본값 */
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    padding: 50px;
+    text-align: center;
+}
+ul, ol{
+    list-style: none;
+}
+img{
+    vertical-align: top;
+    border: 0;
+}
+
+.wrap img{
+    width: 100%;
+    height: auto;
+}
