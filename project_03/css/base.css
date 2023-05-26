@@ -1,0 +1,23 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Pretendard', sans-serif;
+}
+ul, ol{
+    list-style: none;
+}
+img{
+    vertical-align: top;
+}
+a{
+    text-decoration: none;
+}
+em{
+    font-style: normal;
+}
+mark{
+    background-color: transparent;
+}

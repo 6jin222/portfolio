@@ -1,0 +1,247 @@
+/* 헤더 */
+.btn_top{
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 48px;
+    text-decoration: none;
+    color: #fff;
+    font-size: 14px;
+    background-color: #4427c7;
+    z-index: 800;
+    cursor: pointer;
+}
+#header{
+    position: fixed;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    z-index: 200;
+    border-bottom: 1px solid #ccc;
+    background-color: #fff;
+}
+.notice{
+    background-color: #f1f1f1;
+}
+.notice_box{
+    display: flex;
+    justify-content: space-between;
+    width: 360px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 17px;
+    line-height: 3em;
+    color: black;
+}
+.notice_more{
+    padding-right: 15px;
+    font-size: 14px;
+    background-image: url(../images/ico_arr_right.png);
+    background-repeat: no-repeat;
+    background-position: center right 0;
+}
+.head_in{
+    position: relative;
+    width: 1260px;
+    height: 70px;
+    margin-left: auto;
+    margin-right: auto;
+    z-index: 1;
+}
+.head_in .logo a{
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: block;
+    width: 90px;
+    height: 70px;
+    text-indent: -99999px;
+    background-image: url(../images/logo.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.head_in .gnb{
+    position: absolute;
+    left: 300px;
+    top: 10px;
+    height: 40px;
+    width: 100%;
+    overflow: hidden;
+}
+.head_in .gnb>ul{
+    display: flex;
+}
+.head_in .d1 .m1{
+    display: block;
+    padding: 0 50px;
+    font-size: 17px;
+    font-weight: 700;
+    line-height: 50px;
+    color: #222;
+}
+.head_in .d1:hover .m1{
+    color: #4427c7;
+}
+.gnb .sub li:hover a{
+    color: #4427c7;
+    text-decoration: underline;
+}
+.sub{
+    display: none;
+    position: absolute;
+    top: 60px;
+    width: 200%;
+    height: 180px;
+}
+.sub.on{
+    display: block;
+}
+.sub ul{
+    display: flex;
+    padding-top: 15px;
+    margin-left: 50px;
+}
+.sub ul li{
+    margin-right: 50px;
+}
+.sub ul li a{
+    display: block;
+    font-size: 15px;
+    line-height: 20px;
+    color: #444;
+}
+.head_in .utill{
+    position: absolute;
+    top: 2px;
+    right: 0;
+    margin-top: 23px;
+}
+.head_in .utill ul{
+    display: flex;
+    justify-content: space-between;
+    width: 120px;
+}
+.subBg{
+    display: none;
+    position: absolute;
+    top: 120px;
+    left: 0;
+    width: 100%;
+    height: 80px;
+    background-color: #ffffff;
+}
+
+/* 푸터 */
+.f_border{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin-bottom: 30px;
+    border-top: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+}
+.f_box1{
+    display: flex;
+    justify-content: space-between;
+    width: 1040px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 15px;
+    line-height: 1.6em;
+    color: #666;
+}
+.f_cs{
+    position: relative;
+    width: 350px;
+    height: 210px;
+}
+.f_title{
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+    color: #333;
+    margin-bottom: 22px;
+}
+.f_number{
+    margin-bottom: 22px;
+    font-size: 36px;
+    font-weight: 500;
+    color: rgb(209, 4, 4);
+}
+.f_time{
+    margin-bottom: 22px;
+    font-weight: 500;
+    color: #333;
+}
+.f_qa{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    border: 1px solid #a1a1a1;
+}
+.f_qa a{
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 13px;
+    line-height: 1.6em;
+    color: #666;
+}
+.f_company{
+    position: relative;
+    width: 520px;
+}
+.f_company .f_title{
+    margin-bottom: 5px;
+}
+.f_info{
+    font-size: 14px;
+}
+.f_info a{
+    font-size: 15px;
+    line-height: 1.6em;
+    color: #666;
+}
+.f_colabo{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    border: 1px solid #a1a1a1;
+}
+.f_colabo a{
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 13px;
+    line-height: 1.6em;
+    color: #666;
+}
+.f_box2{
+    width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px;
+}
+.f_box2 ul{
+    display: flex;
+    justify-content: center;
+}
+.f_box2 li::after{
+    content: "";
+    display: inline-block;
+    width: 1px;
+    height: 10px;
+    margin-left: 12px;
+    margin-right: 12px;
+    background-color: #5f5a57;
+}
+.f_box2 li:last-child::after{
+    display: none;
+}
+.f_box2 ul li a{
+    font-size: 13px;
+    line-height: 1.6em;
+    color: #666;
+}

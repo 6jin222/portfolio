@@ -1,0 +1,390 @@
+@charset "utf-8";
+
+#wrap{
+    min-width: 1300px;
+}
+
+/* 본문 - 메인슬라이드 */
+#content{
+    padding-top: 100px;
+}
+.main_slide{
+    position: relative;
+    margin-bottom: 110px;
+    overflow: hidden;
+}
+.ms_in{
+    position: relative;
+    width: 1920px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.ms_img{
+    position: relative;
+}
+.ms_img img{
+    width: 100%;
+    height: auto;
+}
+.ms_text{
+    position: absolute;
+    top: 200px;
+}
+.t01, .t03{
+    right: 330px;
+}
+.t02, .t04, .t05, .t06{
+    left: 330px;
+}
+.ms_text h2{
+    margin-bottom: 15px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 50px;
+}
+.ms_text p{
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+.ms_more a{
+    display: block;
+    width: 150px;
+    height: 50px;
+    background-color: #000;
+    text-align: center;
+    font-size: 20px;
+    line-height: 50px;
+    color: #fff;
+}
+.ms_arrow{
+    display: flex !important;
+    justify-content: center;
+    position: absolute;
+    top: 50%;
+    width: 100%;
+}
+.ms_prev, .ms_next{
+    width: 60px;
+    height: 60px;
+    border-top: 2px solid #c5c5c5;
+    border-right: 2px solid #c5c5c5;
+    text-indent: -9999px;
+    cursor: pointer;
+}
+.ms_prev{
+    margin-right: 800px;
+    transform: rotate(-135deg);
+}
+.ms_next{
+    margin-left: 800px;
+    transform: rotate(45deg);
+}
+.ms_btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    bottom: 50px;
+    width: 100%;
+}
+.ms_pager li{
+    float: left;
+    width: 20px;
+    height: 20px;
+    margin: 0 10px;
+    text-indent: -99999px;
+    border-radius: 50%;
+    background-color: #c5c5c5;
+    cursor: pointer;
+}
+.ms_pager .slick-active{
+    width: 50px;
+    border-radius: 35px;
+}
+.ms_play{
+    display: none;
+}
+.ms_stop, .ms_play{
+    width: 20px;
+    height: 20px;
+    margin-right: 35px;
+    padding-bottom: 2px;
+    cursor: pointer;
+}
+
+/* 본문 - 테마 */
+.tema_in{
+    display: flex;
+    justify-content: space-between;
+    width: 920px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 180px;
+}
+.tema_text h2{
+    margin-bottom: 20px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 40px;
+}
+.tema_text p{
+    margin-bottom: 150px;
+    font-size: 16px;
+    line-height: 1.5em;
+    color: #666;
+}
+.tema_box1, .tema_box2{
+    width: 450px;
+}
+.tc1_product ul {
+    display: flex;
+}
+.tema_img{
+    overflow: hidden;
+    width: 450px;
+    height: 400px;
+    margin-bottom: 150px;
+}
+.tema_img img{
+    width: 100%;
+    height: auto;
+}
+.tc_title{
+    margin-bottom: 10px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 35px;
+}
+.tema_concept1{
+    margin-left: 60px;
+}
+.tc_info{
+    margin-bottom: 50px;
+    font-size: 14px;
+    line-height: 1.4em;
+    color: #666;
+}
+.tc1_product{
+    display: flex;
+    width: 390px;
+    margin-bottom: 130px;
+    justify-content: space-between;
+}
+.tc1_product p{
+    overflow: hidden;
+    width: 190px;
+    height: 190px;
+}
+.tc1_product p a img{
+    width: 100%;
+    height: auto;
+}
+.tema_concept2{
+    text-align: right;
+}
+.tc2_product{
+    overflow: hidden;
+    margin-left: 220px;
+    width: 230px;
+}
+.tc2_product a img{
+    width: 100%;
+    height: auto;
+}
+.tb2_product{
+    overflow: hidden;
+    width: 250px;
+    height: 250px;
+    margin: 100px;
+    margin-top: 130px;
+    margin-bottom: 180px;
+}
+.tb2_product a img{
+    width: 100%;
+    height: auto;
+}
+.tb2_img01{
+    overflow: hidden;
+    width: 450px;
+    height: 400px;
+    margin-bottom: 300px;
+}
+.tb2_img01 img{
+    width: 100%;
+    height: auto;
+}
+.tb2_img02{
+    overflow: hidden;
+    width: 450px;
+    height: 387px;
+}
+.tb2_img02 img{
+    width: 100%;
+    height: auto;
+}
+
+/* 본문 - 제품리스트 */
+.product{
+    width: 1250px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 180px;
+}
+.product_btn{
+    margin-bottom: 20px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 32px;
+    font-weight: 500;
+    color: #a1a1a1;
+}
+.product_btn ul{
+    display: flex;
+    align-items: center;
+}
+.product_btn li{
+    margin-right: 20px;
+    cursor: pointer;
+}
+.product_btn li.on{
+    font-size: 36px;
+    font-weight: 700;
+    color: #000000;
+}
+.product_list{
+    height: 450px;
+}
+.product_list li{
+    float: left;
+    margin-right: 100px;
+}
+.product_list li:last-child{
+    margin-right: 0;
+}
+.product_box{
+    display: none;
+}
+.product_box.on{
+    display: block;
+}
+.pl_photo{
+    width: 230px;
+    margin-bottom: 10px;
+}
+.pl_photo img{
+    width: 100%;
+    height: auto;
+}
+.pl_name{
+    height: 60px;
+    font-size: 18px;
+    line-height: 1.2em;
+    color: #222;
+}
+.pl_more{
+    width: 88px;
+    font-size: 15px;
+    line-height: 1em;
+    color: #444444;
+    background-image: url(../images/ico_arr_right.png);
+    background-repeat: no-repeat;
+    background-position: right 0 top 3px;
+}
+
+/* 본문 - 유튜브 */
+.youtube{
+    margin-bottom: 120px;
+}
+.youtube_in{
+    position: relative;
+    padding-top: 350px;
+    background-image: url(../images/video_bg.png);
+    background-repeat: no-repeat;
+    background-position: center top;
+    /* 질문: 배경이미지를 가로로 길게 전체를 차지하게 배치하는 방법을 모르겠어요 */
+}
+.y_video{
+    width: 880px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.y_video img{
+    width: 100%;
+    height: auto;
+}
+.y_story{
+    position: absolute;
+    top: 70px;
+    left: 50%;
+    width: 130px;
+    padding-top: 170px;
+    margin-left: -65px;
+    font-size: 40px;
+    font-weight: 500;
+    color: #222;
+    text-align: center;
+    background-image: url(../images/logo_story_03.png);
+    background-repeat: no-repeat;
+}
+
+/* 본문 - 인스타 */
+.insta{
+    position: relative;
+    width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 115px;
+}
+.insta_title{
+    width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 40px;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+}
+.i_name{
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 1.7em;
+}
+.i_text{
+    margin-bottom: 10px;
+}
+.i_more a{
+    display: block;
+    font-size: 15px;
+    font-weight: 500;
+    color: #000;
+}
+.i_more a span{
+    vertical-align: top;
+    padding-top: 2px;
+    font-size: 13px;
+    color: #000;
+}
+.insta_list .slick-slide{
+    opacity: 0.5;
+    transform: scale(0.85);
+}
+.insta_list .slick-center{
+    opacity: 1;
+    transform: scale(1);
+}
+.insta_list img{
+    width: 100%;
+    height: auto;
+}
+.insta_prev, .insta_next{
+    position: absolute;
+    top: 58%;
+}
+.insta_prev{
+    left: 50%;
+    margin-left: -420px;
+}
+.insta_next{
+    right: 50%;
+    margin-right: -420px;
+}
+.insta_prev span, .insta_next span{
+    font-size: 60px;
+    color: #555;
+    cursor: pointer;
+}

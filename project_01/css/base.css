@@ -1,0 +1,25 @@
+@charset "utf-8";
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Noto Sans KR', sans-serif;
+    word-break: keep-all;
+}
+ul, ol{
+    list-style: none;
+}
+img, button, input{
+    vertical-align: top;
+}
+a{
+    text-decoration: none;
+}
+em{
+    font-style: normal;
+}
+mark{
+    background-color: transparent;
+}
